@@ -12,7 +12,7 @@ public class NewTest {
   public void titleTest() {
 	  
 	  	WebDriver driver;
-		
+		System.out.println("Hi");
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
 	  	driver = new ChromeDriver();
 		
