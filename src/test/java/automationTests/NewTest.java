@@ -13,7 +13,7 @@ public class NewTest {
 	  
 	  	WebDriver driver;
 		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "chmod +x /drivers/chromedriver.exe");
 	  	driver = new ChromeDriver();
 		
 		//driver = new HtmlUnitDriver();
