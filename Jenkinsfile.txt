@@ -9,7 +9,7 @@ pipeline {
 		//Code starts for stage Clean
         stage('Clean') {
             steps {
-				sh 'chmod +x var/jenkins_home/workspace/AutomationProject/drivers/chromedriver'
+				sh 'chmod +x /var/jenkins_home/workspace/AutomationProject/drivers/chromedriver'
                 sh 'mvn clean'
             }
         }
