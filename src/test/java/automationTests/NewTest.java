@@ -12,11 +12,8 @@ public class NewTest {
   public void titleTest() {
 	  
 	  	WebDriver driver;
-		System.out.println("Hi1");
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-		System.out.println("Hi2");
 	  	driver = new ChromeDriver();
-		System.out.println("Hi3");
 		
 		//driver = new HtmlUnitDriver();
 		driver.get("https://www.google.com/");	
