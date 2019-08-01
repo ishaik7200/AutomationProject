@@ -10,7 +10,7 @@ pipeline {
         stage('Clean') {
             steps {
 				//sh 'chmod +x ./drivers/chromedriver'
-                bat 'mvn clean'
+                bat "mvn clean"
             }
         }
 		//Code ends for stage Clean
@@ -19,7 +19,7 @@ pipeline {
 		//Code starts for stage Build
 		stage('Build') {
             steps {
-               bat 'mvn test'
+               bat "mvn test"
             }
         }
 		//Code ends for stage Build
