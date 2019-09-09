@@ -17,11 +17,10 @@ public class NewTest {
 		
 		//driver = new HtmlUnitDriver();
 		driver.get("https://www.google.com/");	
-		//String expectedTitle = "Hello";
-		//String actualTitle = driver.getTitle();
-		//assertEquals(expectedTitle, actualTitle);
-		//System.out.println(actualTitle);
-		System.out.println("Hello");
+		String expectedTitle = "Hello";
+		String actualTitle = driver.getTitle();
+		assertEquals(expectedTitle, actualTitle);
+		System.out.println(actualTitle);
 	  
 	  
 	  
